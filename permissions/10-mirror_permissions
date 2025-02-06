@@ -1,2 +1,2 @@
 #!/bin/bash
-cp --preserve=ownership,mode --attributes-only olleh hello
+chmod --reference=olleh hello
