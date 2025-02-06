@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --reference=olleh hello
+cp --preserve=ownership,mode --attributes-only olleh hello
